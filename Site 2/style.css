@@ -1,0 +1,94 @@
+/* ------------------------------------------------------------ *\
+    Reset
+\* ------------------------------------------------------------ */
+
+*,
+*:before,
+*:after { padding: 0; margin: 0; outline: 0; box-sizing: border-box; }
+
+/* ------------------------------------------------------------ *\
+    Basic
+\* ------------------------------------------------------------ */
+
+body { background: #fff; font-family: 'Georgia', serif; font-size: 30px; line-height: 1.5; color: #000; }
+
+a { color: #2f2c29; text-decoration: none; }
+a:hover { text-decoration: none; color: #cbcbcb; }
+
+h1 { font-size: 72px; }
+h2 { font-size: 62px; }
+h3 { font-size: 52px; }
+h4 { font-size: 40px; }
+h5 { font-size: 30px; }
+h6 { font-size: 30px; }
+
+img { max-width: 100%; height: auto; vertical-align: middle; }
+
+/* ------------------------------------------------------------ *\
+    Cols
+\* ------------------------------------------------------------ */
+
+.cols { width: 100%; position: relative; }
+.cols:after { content: ''; display: table; clear: both; line-height: 0; }
+.cols__col2 {  float: left; width: 50% }
+
+/* ------------------------------------------------------------ *\
+    Shell
+\* ------------------------------------------------------------ */
+
+.shell { width: 1717px; margin: 0 auto; }
+
+/* ------------------------------------------------------------ *\
+	Header
+\* ------------------------------------------------------------ */
+
+.header { position: relative; }
+.header .background-img { z-index: -5 }
+
+/* Logo */
+.logo { position:absolute; left: 0; top: 0; font-size: 0; }
+.logo:hover { opacity: 0.8; }
+
+/* Navigation */
+.nav { position: absolute; top: 0; right: 0; float: right; padding-right: 97px; }
+.nav:after { content: ''; display: table; clear: both; line-height: 0; }
+.nav li { float: left; list-style: none; padding-top: 52px; }
+.nav li + li { margin-left: 52px; }
+
+/* Header Intro */
+.header .header__intro { position:absolute; left: 50%; top: 36%; width: 1000px; height: 373px; background-color: #171718; transform: translate(-50%); opacity: 0.9 }
+.header .header__intro--text { padding: 50px 130px; color: #fff; font-style: italic; text-align: center; }
+.header .header__intro--text h1 { font-weight: normal; line-height: 1.1; letter-spacing: 3px; position: relative; }
+.header .header__intro--text h1::after { content: ''; display: inline-block; position: absolute; width: 410px; height: 2px; background-color: #fff; margin-top: 140px; left: 50%; transform: translate(-50%);}
+
+.header:after { content: ''; display: table; clear: both; line-height: 0; }
+
+/* ------------------------------------------------------------ *\
+	Intro
+\* ------------------------------------------------------------ */
+
+.intro { min-height: 652px; width: 100%; background-color: #000; color: #fff; }
+.intro .article { padding-left: 120px; padding-top: 60px; }
+
+/* ------------------------------------------------------------ *\
+	Article
+\* ------------------------------------------------------------ */
+
+.article .article__header h5 { font-weight: normal; padding: 50px 0px 80px 0px; position: relative; }
+.article .article__header h5:after { content: ''; display: inline-block; position: absolute; width: 33px; height: 3px; background-color: #fff; margin-top: 70px; left: 0;}
+.article .article__body { font-family: : "Montserrat", serif; padding-bottom: 80px; padding-right: 180px; }
+.article .article__footer { font-family: "Times New Roman", serif; font-size: 24px; line-height: 1.67; }
+
+.article .article__footer--nav { position: relative; }
+.article .article__footer--nav--left { float: left; }
+.article .article__footer--nav--right { float: right; padding-right: 50px;}
+
+/* ------------------------------------------------------------ *\
+	Container
+\* ------------------------------------------------------------ */
+
+.container { padding-top: 188px; }
+.container img { margin-bottom: 105px; }
+.container .article { padding-left: 50px; }
+.container .article .article__header h5:after { content: ''; display: inline-block; position: absolute; width: 33px; height: 3px; background-color: #000; margin-top: 70px; left: 0;}
+.container .cols .cols__col2 + .cols__col2 { padding-left: 70px; }

@@ -1,0 +1,126 @@
+/* ------------------------------------------------------------ *\
+    Reset
+\* ------------------------------------------------------------ */
+
+*,
+*:before,
+*:after { padding: 0; margin: 0; outline: 0; box-sizing: border-box; }
+
+/* ------------------------------------------------------------ *\
+    Basic
+\* ------------------------------------------------------------ */
+
+body { background: #fff; font-family: 'Trebuchet MS', sans-serif; font-size: 14px; line-height: 1.57; color: #000; }
+
+a { color: #2b608a; text-decoration: underline; }
+a:hover { text-decoration: none; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { margin-bottom: 1.57em; }
+
+h1 { font-size: 36px; }
+h2 { font-size: 28px; }
+h3 { font-size: 22px; }
+h4 { font-size: 18px; }
+h5 { font-size: 14px; }
+h6 { font-size: 12px; }
+
+p,
+ul,
+ol { margin-bottom: 1.57em; }
+
+ul,
+ol { margin-bottom: 1.57em; line-height: 1.57; }
+
+img { max-width: 100%; height: auto; vertical-align: middle; }
+
+
+/* ------------------------------------------------------------ *\
+    Shell
+\* ------------------------------------------------------------ */
+
+.shell { width: 953px; margin: 0 auto; }
+
+/* ------------------------------------------------------------ *\
+	Header
+\* ------------------------------------------------------------ */
+
+.logo { float: left; padding-top: 45px; font-size: 0; }
+.logo:hover { opacity: 0.7; }
+
+.header:after { content: ''; display: table; clear: both; line-height: 0; }
+
+.nav { float: right; margin-right: 2px; }
+.nav:after { content: ''; display: table; clear: both; line-height: 0; }
+.nav li { float: left; list-style: none; font-size: 18px; color: #2b608a; padding-top: 97px; }
+.nav a { color: #2c608a; text-transform: uppercase; text-decoration: none; }
+.nav a:hover { color: #666; }
+.nav li + li { margin-left: 15px; }
+.nav li + li :before { content: ''; display: inline-block; width: 2px; height: 18px; background: #b3b3b3; vertical-align: middle; margin-right: 13px; }
+
+/* ------------------------------------------------------------ *\
+	Intro
+\* ------------------------------------------------------------ */
+
+.intro { background: url(images/background.png); width: 100%; height: 380px; margin-top: -20px; background-size: cover; }
+
+/* ------------------------------------------------------------ *\
+	Main
+\* ------------------------------------------------------------ */
+
+.main { color: #666; }
+.main:after { content: ''; display: table; clear: both; line-height: 0; }
+.main .main__inner { padding-top: 50px; }
+.main .main__inner:after { content: ''; display: table; clear: both; line-height: 0; }
+
+/* ------------------------------------------------------------ *\
+	Content
+\* ------------------------------------------------------------ */
+
+.content { width: 630px; float: left; }
+
+/*-----------------------------------------------*\
+	Article
+\*-----------------------------------------------*/
+
+.article {  width: 600px; margin-bottom: 20px; padding-bottom: 15px; color: #666; }
+.article:after { content: ''; display: table; clear: both; line-height: 0; }
+.article h4 { text-transform: uppercase; margin-bottom: 25px; color: #666; }
+.article li { list-style: none; }
+.article__image { width: 80px; height: 80px; float: left; background: #666; margin-right: 10px; }
+.article__content { float: left; }
+
+/* ------------------------------------------------------------ *\
+	Sidebar
+\* ------------------------------------------------------------ */
+
+.sidebar { width: 280px; float: right; font-size: 12px; }
+.sidebar h4 { text-transform: uppercase; margin-bottom: 25px; }
+
+
+.section h6 { margin-bottom: 0; font-weight: normal; }
+.section li { list-style: none; padding-left: 15px; margin-bottom: 20px; }
+.section li:before { content: url(images/square.jpg); display: inline-block; position: absolute; margin-left: -15px; }
+.section a { color: #666; text-decoration: none; }
+.section a:hover { text-decoration: underline; }
+
+
+/* ------------------------------------------------------------ *\
+	Footer
+\* ------------------------------------------------------------ */
+
+.footer { width: 100%; background: #1d6299; height: 55px; }
+
+.footer__nav li { float: left; list-style: none; font-size: 11px; color: #fff; padding-top: 17px; }
+.footer__nav a { color: #fff; }
+
+.footer__nav { float: left; }
+.footer__nav li + li:before { content: ''; display: inline-block; width: 1px;  height: 11px; background: #fff; margin-left: 10px; margin-right: 5px; vertical-align: middle; }
+.footer__nav a:hover { color: #666; }
+
+.footer .footer__nav--right { float: right; }
+

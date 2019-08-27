@@ -1,0 +1,23 @@
+.btn {
+	display: inline-block;
+	margin: 5px;
+	width: 100px;
+	padding: 20px;
+	border: 5px solid black;
+	background: green;
+}
+.btn:hover, .btn:focus, .active {
+	border-bottom: none;
+	background: white;
+}
+
+.container {
+	text-align: center;
+	min-height: 500px;
+	background: red
+}
+
+#buttonsContainer {
+	height: 200px;
+	background: yellow;
+}

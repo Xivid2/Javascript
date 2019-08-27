@@ -1,0 +1,96 @@
+/* ------------------------------------------------------------ *\
+    Reset
+\* ------------------------------------------------------------ */
+
+*,
+*:before,
+*:after { padding: 0; margin: 0; outline: 0; box-sizing: border-box; }
+
+/* ------------------------------------------------------------ *\
+    Basic
+\* ------------------------------------------------------------ */
+
+body { background: #fff; font-family: 'Arial', sans-serif; font-size: 12px; line-height: 1.83; color: #666; }
+
+a { text-decoration: none; line-height: 1.83; color: #9fa374; }
+a:hover { text-decoration: underline; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { margin-bottom: 10px; line-height: 1.83; font-weight: 0; }
+
+h1 { font-size: 36px; }
+h2 { font-size: 30px; }
+h3 { font-size: 24px; }
+h4 { font-size: 18px; }
+h5 { font-size: 14px; }
+h6 { font-size: 12px; }
+
+p,
+ul,
+ol { margin-bottom: 1.83em; line-height: 1.83; }
+
+ul,
+ol { margin-bottom: 0; }
+
+img { max-width: 100%; height: auto; vertical-align: middle; }
+
+/* ------------------------------------------------------------ *\
+    Shell
+\* ------------------------------------------------------------ */
+
+.shell { width: 920px; margin: 0 auto; position: relative; }
+
+/* ------------------------------------------------------------ *\
+    Header
+\* ------------------------------------------------------------ */
+
+.header { font-family: 'Myriad Pro'; background: url(images/header.jpg); padding-bottom: 10px; }
+.header:after { content: ''; display: table; clear: both; line-height: 0; }
+
+.logo { float: left; padding-top: 13px; font-size: 0; }
+.logo:hover { opacity: .5; }
+
+.nav { float: right; }
+.nav li { float: left; list-style: none; font-size: 16px; text-transform: uppercase; padding-top: 115px; }
+.nav ul:after { content: ''; display: table; clear: both; line-height: 0; }
+.nav li + li:before { content: ''; display: inline-block; height: 16px; width: 1px; background: #9fa374; vertical-align: middle; margin-left: 15px; margin-right: 12px; }
+.nav a { color: #9fa374; }
+.nav a:hover { border-top: 3px solid #9fa374; padding-top: 5px; text-decoration: none; }
+
+/* ------------------------------------------------------------ *\
+    Intro
+\* ------------------------------------------------------------ */
+
+.intro { width: 100%; height: auto; text-align: center; }
+.intro .intro__text { font-size: 48px; color: #fff; text-transform: uppercase; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%)}
+/* ------------------------------------------------------------ *\
+    Main
+\* ------------------------------------------------------------ */
+
+.main { color: #666; padding-top: 50px; padding-bottom: 50px; }
+.main:after { content: ''; display: table; clear: both; line-height: 0; }
+
+.content { width: 650px; float: left; border-right: 1px solid #f1f1ea; padding-right: 20px; }
+.content h3 { color: #5a471b; }
+
+.sidebar { float: right; width:250px; }
+.sidebar h3 { color: #9fa374; }
+
+
+
+/* ------------------------------------------------------------ *\
+    Footer
+\* ------------------------------------------------------------ */
+
+.footer { width: 100%; background: #5a471b;  text-align: center; font-family: 'Myriad Pro'; font-size: 11px; color: #fff; padding-bottom: 5px; }
+
+.footer .footer__nav li { display: inline-block; margin-top: 20px; margin-bottom: 10px; }
+.footer .footer__nav li + li { margin-left: 12px; }
+.footer .footer__nav li + li:before { content: ':'; font-size: 14px; margin-right: 12px; display: inline-block; }
+.footer .footer__nav a { color: #fff; font-size: 14px; }
+.footer .footer__nav a:hover { border-bottom: 2px solid #fff; border-top: 2px solid #fff; }
+

@@ -1,0 +1,185 @@
+.formDiv {
+	width: 600px;
+	min-height: 500px;
+	background: #FFA;
+	margin: 0 auto;
+	padding-top: 20px;
+	text-align: center;
+	display: inline-block;
+}
+
+input[type=text] {
+	width: 250px;
+	height: 30px;
+	background: #FFF;
+	margin: 1px;
+	box-sizing: border-box;
+}
+.textareaNow {
+	margin: 10px;
+}
+
+.submitButton {
+	height: 30px;
+	width: 60px;
+	margin-top: 20px;
+}
+
+.submitButton:hover {
+	background: cyan;
+}
+
+.formSelect {
+	display: block;
+	width: 250px;
+	background: yellow;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.formdiV { 
+	border: 2px solid red;
+}
+
+.tableButton {
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: block;
+}
+
+.tableContentDiv {
+	margin: 0 auto;
+}
+
+.bigTable {
+	box-sizing: border-box;
+	border: 1px solid black;
+	float:left;
+	overflow: hidden;
+	min-width: 150px;
+	background: white;
+	margin: 10px;
+}
+
+.TaskTwo, .tableHeader .TaskTwo {
+	box-sizing: border-box;
+	border: 1px solid black;
+	float: left;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.tableRows {
+	box-sizing: border-box;
+	overflow: hidden;
+	width: 100%;
+	word-wrap: break-word;
+	display: flex;
+}
+
+.tableTitle {
+	height: 30px;
+	border: 1px solid black;
+	line-height: 30px;
+}
+
+.tableHeader {
+	box-sizing: border-box;
+}
+
+.noDataDiv {
+	background: white;
+	overflow: hidden;
+	border: 1px solid black;
+	min-height: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+/* TASK THREE */
+.TaskThree {
+	box-sizing: border-box;
+	border: 1px solid black;
+	height: 50px;
+	width: 200px;
+	float: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	word-wrap: break-word;
+}
+
+.tableHeader .TaskThree {
+	background: #CCC;
+	justify-content: flex-end;
+	text-align: left;
+}
+
+/* TASK FIVE */
+.container {
+	position: relative;
+}
+#buttonContainer {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+/* Style the tab */
+#content {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+ 	text-align: center;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    text-align: center;
+    min-height: 400px;
+    min-width: 800px
+}
+
+/* Style the buttons that are used to open the tab content */
+.button {
+    background-color: #fff;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.button:hover, .active {
+    background: #ddd;
+}
+
+/* TASK FIVE */
+.TaskFive {
+	box-sizing: border-box;
+	border: 1px solid black;
+	min-height: 50px;
+	width: 90px;
+	float: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	word-wrap: break-word;
+}
+
+.hiddenContent {
+	display: none;
+}
+.cellImage {
+	margin: 0 auto;
+	text-align: center;
+	width: 70px;
+	height: 70px;
+}

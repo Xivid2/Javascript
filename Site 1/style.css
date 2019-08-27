@@ -1,0 +1,119 @@
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	text-align: justify;
+}
+
+h1 { font-size: 24px; font-weight: bold; }
+h2 { font-size: 20px; font-weight: bold; }
+h3 { font-size: 16px; font-weight: bold; }
+h4 { font-size: 14px; font-weight: bold; }
+h5 { font-size: 13px; font-weight: bold; }
+h6 { font-size:  }
+
+body {
+	color: #646464;
+	font-size: 13px;
+	line-height: 1.2;
+}
+ol, ul {
+	list-style: none;
+}
+/* ---------------- *\
+		Shell
+\* ---------------- */
+.shell { width: 762px; margin: 0 auto; }
+.shell::after { content: ""; display: table; line-height: 0; clear: both;
+ }
+
+/* ---------------- *\
+	    Header 
+\* ---------------- */
+.header { max-height: 290px }
+
+/* ---------------- *\
+	Header Sidebar
+\* ---------------- */
+.header_sidebar { width: 200px; float: left; }
+
+/* Nav */
+.nav ul { width: 100%; display: inline-block; }
+.nav ul li { padding: 0 20px; background: url("images/left_menu.jpg"); height: 31px; line-height: 31px; }
+.nav a { color: #FEDA25; font-family: Verdana }
+
+/* Logo */
+.logo { background: url("images/logo_bg.jpg"); text-align: center; min-height: 75px; padding-top: 28px; }
+
+/* ---------------- *\
+	Header Content
+\* ---------------- */
+.header_main { float: right; }
+
+.header_image img { border: 2px solid #fff }
+
+/* Header Links Form */
+.header_links_form { height: 30px; background: #333; }
+.header_links_form::after { content: ""; display: table;
+line-height: 0; clear: both; }
+
+/* Header Links */
+.header_links { float: left; }
+.header_links a { color: #FF9933; }
+.header_links ul li { float: left; padding-top: 10px; padding-left: 15px; }
+
+/* Header Form */
+.header_form { padding-right: 50px; float: right; }
+.header_form input[type=search] { width: 150px; height: 20px; margin-right: 5px; }
+.header_form input[type=submit] { width: 21px; height: 25px; background: url("images/search.gif"); }
+.form_search { margin-top: 7px; float: left; padding-left: 3px; }
+.submit { float: right; }
+
+/* ---------------- *\
+		Main
+\* ---------------- */
+
+/* ---------------- *\
+		Sidebar
+\* ---------------- */
+.main .sidebar { width: 200px; float: left; background: #EFEFEF; }
+
+/* Article */
+.article { padding: 10px; }
+.article h1 { font-size: 13px; text-decoration: underline; }
+
+/* Map */
+.map .map_image { text-align: center; padding: 10px 0; }
+.map p { margin-bottom: 15px; text-align: center; }
+
+/* ---------------- *\
+		Content
+\* ---------------- */
+
+.main .content { width: 560px; box-sizing: border-box; float: right;  padding-top: 10px; }
+
+/* HR */
+.hr { height: 2px; width: 100%; background: #646464; margin: 10px 0 30px 0; }
+/* Content Left */
+.content_left { width: 330px; float: left; }
+
+/* Content Right */
+.content_right { width: 220px; float: right; border-left: 2px solid #EFEFEF; }
+
+/* Section */
+.section { padding: 10px 10px; }
+.section h1 { padding-left: 10px; }
+.section h1::before { content: url("images/headings_image.png"); position: absolute; margin-left: -10px; margin-top: 11px; }
+.content_right .section img { margin: 20px 0; }
+.section .section_img_right { float: right; margin-left: 15px; }
+.section .section_img_left { float: left; margin-right: 10px; }
+
+/* ---------------- *\
+		Footer
+\* ---------------- */
+.copyright { background: #FEDA25; border-top: 2px solid #FF9900; min-height: 25px; padding-top: 11px; padding-left: 25px; }
+.copyright p a { text-decoration: none; }
+
+/* Bold */
+.bold { font-weight: bold; }
